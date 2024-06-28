@@ -1,5 +1,5 @@
 # Metricalo Test Symfony Project
-#### This is a Symfony applications with an endpoint and a cli interface to make payment requests to specified external systems
+#### This is a Symfony application with an endpoint and a cli interface to make payment requests to specified external systems
 
 ## Table of content
 1. [Description](#description)
@@ -13,7 +13,7 @@
 
 
 ## Description
-This is a Symfony applications with an endpoint and a cli interface to make payment requests to the specified external systems
+This is a Symfony application with an endpoint and a cli interface to make payment requests to the specified external systems
 
 ## Requirements
 * Docker Machine/ Docker Desktop with Docker Compose plugin or a machine that is properly set up to run a symfony 6 application
