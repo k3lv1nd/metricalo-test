@@ -1,0 +1,15 @@
+
+###> symfony/framework-bundle ###
+/.env
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/public/credit_debit_advice_webhook.log
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+/certs/*
+.idea/*
+/mysql/
