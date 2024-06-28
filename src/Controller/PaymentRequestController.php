@@ -87,15 +87,27 @@ class PaymentRequestController extends AbstractController
             ],
             'card_number' => [
                 new NotBlank(),
+                new Regex([
+                    'pattern' => '/^\d+$/'
+                ]),
             ],
             'card_exp_year' => [
                 new NotBlank(),
+                new Regex([
+                    'pattern' => '/^\d+$/'
+                ]),
             ],
             'card_exp_month' => [
                 new NotBlank(),
+                new Regex([
+                    'pattern' => '/^\d+$/'
+                ]),
             ],
             'card_cvv' => [
                 new NotBlank(),
+                new Regex([
+                    'pattern' => '/^\d+$/'
+                ]),
             ],
         ]);
 
