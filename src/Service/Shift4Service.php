@@ -20,7 +20,7 @@ class Shift4Service
      */
     public function sendPaymentRequest(array $postData, PaymentRequest $paymentRequest): array
     {
-        $shift4 = new Shift4Gateway('sk_test_QvPGbnVzMGwUvwlJNrn9ZnkO');
+        $shift4 = new Shift4Gateway();
         $data = array(
             "amount" => $postData['amount'],
             "currency" => $postData['currency'],
